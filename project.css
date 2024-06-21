@@ -1,0 +1,154 @@
+.nav>a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    padding: 15px;
+}
+.nav{
+    display: flex;
+    align-items: flex-end;
+    right: 0%;
+    position: absolute;
+    top: 5px;
+    
+}
+.heading>h4{
+    margin: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    width: fit-content;
+    z-index: 1;
+}
+.nav :hover{
+    background-color: rgb(203, 208, 208);
+    border: 1px;
+}
+.heading :hover{
+    background-color: rgb(203, 208, 208);
+    border: 1px;
+    width: fit-content;
+    padding: 10px;
+}
+.nav{
+    position: fixed;
+    z-index: 1;
+}
+#nav_bar{
+    width: 100%;
+    position: fixed;
+    /* background-color: white; */
+    /* z-index: 1; */
+}
+#image_1 img{
+    width: 100%;
+}
+#about_cater {
+    margin-top: 50px;
+    height: 50vw;
+    width: 100%;
+    /* border: 1px solid; */
+    position: relative;
+}
+#image_2{
+    height: 40vw;
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 100px 120px 100px;
+
+}
+#para_1{
+    
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 80px 100px 80px;
+    right: 0%;
+    position: absolute
+}
+#image_2 img{
+    height: 40vw;
+    width: 500px;
+}
+#para_1 h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 0px;
+   
+}
+#para_1 h4{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 40px;
+}
+#para_1 p{
+    word-spacing: 1px;
+    margin: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 530;
+}
+#opacity{
+    opacity: 0.9;
+    padding-top: 40px;
+}
+#image_3 img{
+    position: absolute;
+    right: 0%;
+    margin: 10px 120px 10px;
+    top: 1400px;
+
+}
+#our_menu{
+    text-align-last: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#our_menu p{
+    opacity: 0.8;
+
+}
+#info{
+    width: 100%;
+    height: 50vw;
+    margin-top: 50px;
+}
+#input{
+    margin: 70px;
+}
+#input h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+#input p{
+    margin-top: 40px;
+}
+.one{
+    color: light blue;
+}
+#input h6{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 200;
+}
+input{
+    width: 80%;
+    padding: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 2px;
+    font-size: 20px;
+    border: 1px transparent;
+}
+button:hover{
+    background-color: lightgrey;
+}
+#footer p{
+    text-align: center;
+    padding: 50px;
+}
